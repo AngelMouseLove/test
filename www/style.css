@@ -3,7 +3,7 @@ body{
     width: 100%;
     height:100%;
     color:rgb(1, 7, 5);
-    background-color:rgb(189, 238, 230);
+    background-color:rgb(216, 230, 227);
     font-size:1em;
     font-family: "Segoe UI", sans-serif;
     line-height: 135%;
@@ -39,7 +39,7 @@ hr{
     display:block;
     border:0;
     height: 1px;
-    border-top: 1px solid rgb(16, 148, 97);
+    border-top: 1px solid rgb(21, 145, 97);
     padding:0;
 }
 .right{
@@ -55,7 +55,7 @@ hr{
 ::selection {background:#f58b8b; color:#fff;}
 header, footer{
     width: 98%;
-    background-color: rgb(24, 164, 127);
+    background-color: rgb(23, 151, 117);
     float: left;
    /* min-height: 50px;*/ 
     
@@ -103,10 +103,43 @@ header{
 
 }
 #menuHrefs a:hover{
-    background-color:rgb(15, 86, 86);
-
+    background-color:rgb(23, 151, 117);
 }
+/* Основные стили для сайта */
+
+#wrapper{
+    float: left;
+    width:100%;
+    margin-top: 20px;
+}
+#wrapper #articles{
+    float:left;
+    width: 80%;
+    margin-left:10%;
+}
+
+#wrapper #articles article{
+    float:left;
+    width:31.333%;
+    border: 1px solid silver;
+    box-sizing:border-box;
+    border-radius:5px;
+    background-color: #f58b8b;
+    margin-right: 2%;
+    min-height: 400px;
+}
+
+#wrapper #articles article img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid silver;
+    margin-bottom: 10px;
+}
+
+
 /* Стили для футера */
+
 footer{
     border-top:2px solid silver;
     margin-top: 10px;
