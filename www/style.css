@@ -17,7 +17,7 @@ a{
     transition: all.6s ease;
 }
 a:hover{
-    color:rgb(210, 231, 223);
+    color:rgb(210, 237, 226);
     text-decoration: none;
     transition: all.6s ease;
 }
@@ -35,17 +35,28 @@ img{
     height: auto;
     width:auto/9;
 }
+hr{
+    display:block;
+    border:0;
+    height: 1px;
+    border-top: 1px solid rgb(16, 148, 97);
+    padding:0;
+}
 .right{
     float:right;
 }
 .left{
     float:left;
 }
+.clear{
+    clear:both;
+}
 /*Selection Block*/
 ::selection {background:#f58b8b; color:#fff;}
 header, footer{
     width: 98%;
     background-color: rgb(24, 164, 127);
+    float: left;
    /* min-height: 50px;*/ 
     
 }
@@ -74,7 +85,28 @@ header{
  input[type=search].field:focus {
     border: 2px solid rgb(54, 181, 183); 
 }
+#menu{
+    color:#666;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.7em;
+}
+#menu hr{
+    width:500px;
+    max-width:100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#menuHrefs a {
+    padding: 10px;
+    border-radius:5px;
+    margin-right: 5px;
 
+}
+#menuHrefs a:hover{
+    background-color:rgb(15, 86, 86);
+
+}
+/* Стили для футера */
 footer{
     border-top:2px solid silver;
     margin-top: 10px;
