@@ -65,10 +65,11 @@ header{
     padding: 1%;
 }
 #logo{
-    font-size:1.3em;
-    font-family:Comic Sans MS, sans-serif;
+    font-size:2.5em;
+    font-family: 'Dancing Script', cursive;
     color:rgb(200, 235, 235);
 }
+
 .contact{
     font-size: 1.5em;
     font-family: Comic Sans  MS, sans-serif;
@@ -120,13 +121,14 @@ header{
 
 #wrapper #articles article{
     float:left;
-    width:31.333%;
+    width:29.333%;
     border: 1px solid silver;
     box-sizing:border-box;
     border-radius:5px;
     background-color: #f58b8b;
     margin-right: 2%;
     min-height: 400px;
+    
 }
 
 #wrapper #articles article img{
@@ -137,6 +139,18 @@ header{
     margin-bottom: 10px;
 }
 
+#wrapper #articles article h2{
+    width:90%;
+    margin-left: 5%;
+    font-weight: normal;
+    font-size: 1.7em;
+    color: rgb(42, 64, 10);
+}
+#wrapper #articles article p{
+    width:80%;
+    margin-left: 10%;
+    text-indent:1em;
+}
 
 /* Стили для футера */
 
