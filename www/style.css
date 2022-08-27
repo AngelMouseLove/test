@@ -1,137 +1,162 @@
 @charset "utf-8";
-body{
+
+body {
     width: 100%;
-    height:100%;
-    color:rgb(1, 7, 5);
-    background-color:rgb(216, 230, 227);
-    font-size:1em;
+    height: 100%;
+    color: rgb(1, 7, 5);
+    background-color: rgb(216, 230, 227);
+    font-size: 1em;
     font-family: "Segoe UI", sans-serif;
     line-height: 135%;
 }
-html{
+
+html {
     height: 100%;
 }
-a{
-    color:rgb(17, 14, 118);
+
+a {
+    color: rgb(17, 14, 118);
     text-decoration: none;
     transition: all.6s ease;
 }
-a:hover{
-    color:rgb(210, 237, 226);
+
+a:hover {
+    color: rgb(210, 237, 226);
     text-decoration: none;
     transition: all.6s ease;
 }
-a:active{
-    color:rgb(32, 91, 164);
-    
+
+a:active {
+    color: rgb(32, 91, 164);
+
 }
-*{
-    margin:0;
-    padding:0;
-     outline:none; 
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
-    width:auto/9;
+    width: auto/9;
 }
-hr{
-    display:block;
-    border:0;
+
+hr {
+    display: block;
+    border: 0;
     height: 1px;
     border-top: 1px solid rgb(21, 145, 97);
-    padding:0;
+    padding: 0;
 }
-.right{
-    float:right;
+
+.right {
+    float: right;
 }
-.left{
-    float:left;
+
+.left {
+    float: left;
 }
-.clear{
-    clear:both;
+
+.clear {
+    clear: both;
 }
+
 /*Selection Block*/
-::selection {background:#f58b8b; color:#fff;}
-header, footer{
+::selection {
+    background: #f58b8b;
+    color: #fff;
+}
+
+header,
+footer {
     width: 98%;
     background-color: rgb(23, 151, 117);
     float: left;
-   /* min-height: 50px;*/ 
-    
+    /* min-height: 50px;*/
+
 }
-header{
+
+header {
     border-bottom: 2px solid rgb(230, 223, 223);
     padding: 1%;
 }
-#logo{
-    font-size:2.5em;
+
+#logo {
+    font-size: 2.5em;
     font-family: 'Dancing Script', cursive;
-    color:rgb(200, 235, 235);
+    color: rgb(200, 235, 235);
 }
 
-.contact{
+.contact {
     font-size: 1.5em;
-    font-family: Comic Sans  MS, sans-serif;
+    font-family: Comic Sans MS, sans-serif;
     margin-left: 10px;
 }
 
- input[type=search].field {
+input[type=search].field {
     border-radius: 5px;
-    border:2px solid rgb(41, 12, 146);
+    border: 2px solid rgb(41, 12, 146);
     padding: 5px;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
- input[type=search].field:focus {
-    border: 2px solid rgb(54, 181, 183); 
+input[type=search].field:focus {
+    border: 2px solid rgb(54, 181, 183);
 }
-#menu{
-    color:#666;
+
+#menu {
+    color: #666;
     font-family: Comic Sans MS, sans-serif;
     font-size: 1.7em;
 }
-#menu hr{
-    width:500px;
-    max-width:100%;
+
+#menu hr {
+    width: 500px;
+    max-width: 100%;
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
 #menuHrefs a {
     padding: 10px;
-    border-radius:5px;
+    border-radius: 5px;
     margin-right: 5px;
 
 }
-#menuHrefs a:hover{
-    background-color:rgb(23, 151, 117);
+
+#menuHrefs a:hover {
+    background-color: rgb(23, 151, 117);
 }
+
 /* Основные стили для сайта */
 
-#wrapper{
+#wrapper {
     float: left;
-    width:100%;
+    width: 100%;
     margin-top: 20px;
 }
-#wrapper #articles{
-    float:left;
+
+#wrapper #articles {
+    float: left;
     width: 80%;
-    margin-left:10%;
+    margin-left: 10%;
 }
 
-#wrapper #articles article{
-    float:left;
-    width:29.333%;
+#wrapper #articles article {
+    float: left;
+    width: 29.333%;
     border: 1px solid silver;
-    box-sizing:border-box;
-    border-radius:5px;
+    box-sizing: border-box;
+    border-radius: 5px;
     background-color: #f58b8b;
     margin-right: 2%;
     min-height: 400px;
-    
+
 }
 
-#wrapper #articles article img{
+#wrapper #articles article img {
     width: 100%;
     height: 200px;
     border-radius: 5px 5px 0px 0px;
@@ -139,45 +164,99 @@ header{
     margin-bottom: 10px;
 }
 
-#wrapper #articles article h2{
-    width:90%;
+#wrapper #articles article h2 {
+    width: 90%;
     margin-left: 5%;
     font-weight: normal;
     font-size: 1.7em;
     color: rgb(42, 64, 10);
 }
-#wrapper #articles article p{
-    width:80%;
+
+#wrapper #articles article p {
+    width: 80%;
     margin-left: 10%;
-    text-indent:1em;
+    text-indent: 1em;
+}
+
+#wrapper #articles article a {
+    padding: 3px;
+    background-color: rgb(133, 66, 210);
+    margin-left: 5%;
+    border-radius: 40px;
+    float: left;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#wrapper #articles article a:hover {
+    color: black;
+    background-color: #d5c5c5;
+}
+
+/* Цунтральный блок нашего сайта */
+
+#main_soc_block {
+    width: 100%;
+    padding: 2% 0;
+    border-bottom: 2px solid rgb(23, 151, 117);
+    border-top: 2px solid rgb(23, 151, 117);
+    margin: 20px 0;
+    float: left;
+    background: url("img/нарисованные лапки.jpg") repeat-x center 0;
+    height: 300px;
+}
+
+#main_soc_block_in {
+    text-align: center;
+    padding: 1%;
+    padding: 100px;
+    background-color: rgb(23, 151, 117);
+    border: 1px solid rgb(133, 66, 210);
+    border-radius: 7px;
+    width: 500px;
+}
+
+#main_soc_block_in a {
+    float: left;
+    padding: 5px;
+    background-color: black;
+    border-radius: 6px;
+    margin-left: 35%;
+    color: white;
+}
+
+#main_soc_block_in a:hover {
+    background-color: rgb(133, 66, 210);
 }
 
 /* Стили для футера */
 
-footer{
-    border-top:2px solid silver;
+footer {
+    border-top: 2px solid silver;
     margin-top: 10px;
     padding: 1%;
     padding-bottom: 2%;
 }
 
-footer img{
-    width:7%;
-    float:left;
-    margin-right:7px; ;
+footer img {
+    width: 7%;
+    float: left;
+    margin-right: 7px;
+    ;
 }
 
-#page-wrap:after{
-    content:"";
-    display:block;
+#page-wrap:after {
+    content: "";
+    display: block;
 
 }
 
-footer, #page-wrap:after{
-    height:10px ;
+footer,
+#page-wrap:after {
+    height: 10px;
 }
 
- #page-wrap{
+#page-wrap {
     min-height: 94%;
     margin-bottom: -10px;
 }
