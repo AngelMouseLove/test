@@ -193,6 +193,68 @@ input[type=search].field:focus {
     background-color: #d5c5c5;
 }
 
+/* Стили для формы */
+form{
+    width: 60%;
+    margin-left: 20%;
+    float:left;
+
+}
+
+form leabel {
+    float:left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    float: left;
+    clear: both;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+form input:focus textarea:focus{
+    border: 2px solid silver;
+}
+
+form textarea{
+    width:60%;
+    float:left;
+    clear:both;
+    background-color: rgb(147, 222, 214);
+    border:2px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.7em;
+
+}
+
+/* Стили для страничкми о нас */
+
+#about_us{
+width: 60%;
+float: left;
+background-color: #f58b8b;
+border-radius: 5px;
+border: 1px solid silver;
+box-sizing: border-box;
+padding: 1%;
+}
+
+#colum_Right{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    background-color: #f58b8b;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 1%;
+}
 /* Цунтральный блок нашего сайта */
 
 #main_soc_block {
