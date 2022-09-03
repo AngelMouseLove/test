@@ -144,17 +144,33 @@ input[type=search].field:focus {
     margin-left: 10%;
 }
 
-#wrapper #articles article {
-    float: left;
-    width: 29.333%;
+#wrapper #articles article{
+    float:left;
     border: 1px solid silver;
     box-sizing: border-box;
     border-radius: 5px;
-    background-color: #f58b8b;
-    margin-right: 2%;
-    min-height: 400px;
-
+    background-color:#f58b8b ;
+    min-height:400px ;
 }
+
+@media (min-width: 900px) {
+#wrapper #articles article {   
+    width: 29.333%;  
+    margin-right: 2%;
+}}
+
+@media (max-width: 899px) and (min-width: 700px){
+    #wrapper #articles article {   
+        width: 80%;  
+        margin-left: 2%;
+        margin-bottom: 10px; 
+    }}
+
+@media (max-width: 699px) {
+    #wrapper #articles article { 
+        width: 100%;
+        margin-bottom: 10px;  
+    }}
 
 #wrapper #articles article img {
     width: 100%;
@@ -230,7 +246,22 @@ form textarea{
     border-radius: 5px;
     padding: 10px;
     font-size: 1.7em;
+}
 
+form #send{
+    float: left;
+    padding:10px;
+    background-color:rgb(175, 40, 202);
+    border-radius: 5px;
+    margin-top:10px;
+    font-size:2em;
+    color:#e8d2d2;
+    cursor: pointer;
+}
+
+form #send:hover {
+    background-color: rgb(161, 97, 174);
+    
 }
 
 /* Стили для страничкми о нас */
@@ -271,11 +302,15 @@ padding: 1%;
 #main_soc_block_in {
     text-align: center;
     padding: 1%;
-    padding: 100px;
+    padding: 120px;
     background-color: rgb(23, 151, 117);
     border: 1px solid rgb(133, 66, 210);
     border-radius: 7px;
-    width: 500px;
+    width: 600px;
+    max-width: 98%;
+    box-sizing:border-box;
+
+
 }
 
 #main_soc_block_in a {
